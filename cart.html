@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кошик | AvtoBar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>AvtoBar — Мій кошик 🛒</h1>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="index.html#catalog">Каталог</a></li>
+            <li><a href="cart.html">Кошик</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="cart-container">
+    <div class="cart">
+        <h2>Ваші автомобілі</h2>
+
+        <div id="cart-items"></div>
+
+        <h3 id="total">Загальна сума: 0$</h3>
+
+        <button class="buy" onclick="clearCart()">
+            Очистити кошик
+        </button>
+    </div>
+</main>
+
+<footer>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
