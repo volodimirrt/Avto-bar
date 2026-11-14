@@ -77,3 +77,19 @@ function contactUs() {
 }
 
 showCart();
+
+function orderNow() {
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    if (cart.length === 0) {
+        alert("Ваш кошик порожній!");
+        return;
+    }
+
+    alert("🎉 Замовлення успішно оформлено! Дякуємо за покупку в AvtoBar!");
+
+    localStorage.removeItem("cart");
+
+    showCart();
+}
+
