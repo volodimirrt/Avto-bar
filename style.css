@@ -235,7 +235,14 @@ footer section p {
     color: #0879cf;
     font-size: 23px;
 }
+.cart .buy {
+    margin-top: 15px;
+    background: linear-gradient(135deg, #0879cf, #168de0);
+}
 
+.cart .buy:hover {
+    background: #075fa5;
+}
 
 
 
